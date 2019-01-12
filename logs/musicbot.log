@@ -1,0 +1,42 @@
+[30.593872070] 2019-01-12 20:50:23,720 - INFO - launcher: Starting sanity checks
+[33.588647842] 2019-01-12 20:50:23,723 - INFO - launcher: Checking for Python 3.5+
+[34.591913223] 2019-01-12 20:50:23,724 - INFO - launcher: Checking console encoding
+[35.091161728] 2019-01-12 20:50:23,724 - INFO - launcher: Setting console encoding to UTF-8
+[35.592794418] 2019-01-12 20:50:23,725 - INFO - launcher: Ensuring we're in the right environment
+[37.598133087] 2019-01-12 20:50:23,727 - INFO - launcher: Adding local bins/ folder to path
+[437.143802643] 2019-01-12 20:50:24,126 - INFO - launcher: Required checks passed.
+[438.573598862] 2019-01-12 20:50:24,128 - INFO - launcher: Optional checks passed.
+[439.579963684] 2019-01-12 20:50:24,129 - INFO - launcher: Moving old musicbot log
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[0.9680049419403076] 2019-01-12 20:50:24,657 - WARNING - musicbot.config | In config.py::MainThread(50496), line 115 in run_checks: i18n file does not exist. Trying to fallback to config/i18n/en.json.
+[0.9685063362121582] 2019-01-12 20:50:24,658 - INFO - musicbot.config | In config.py::MainThread(50496), line 126 in run_checks: Using i18n: config/i18n/en.json
+[0.9700107574462891] 2019-01-12 20:50:24,659 - DEBUG - musicbot.bot | In bot.py::MainThread(50496), line 219 in _setup_logging: Set logging level to INFO
+[0.9715135097503662] 2019-01-12 20:50:24,661 - DEBUG - musicbot.json | In json.py::MainThread(50496), line 8 in __init__: Init JSON obj with config/i18n/en.json
+[0.9965801239013672] 2019-01-12 20:50:24,686 - INFO - musicbot.bot | In bot.py::MainThread(50496), line 84 in __init__: Starting MusicBot 1.9.8_3
+[0.9976112842559814] 2019-01-12 20:50:24,687 - INFO - musicbot.bot | In bot.py::MainThread(50496), line 90 in __init__: Loaded autoplaylist with 2531 entries
+[5.4764583110809326] 2019-01-12 20:50:29,166 - DEBUG - musicbot.bot | In bot.py::MainThread(50496), line 915 in on_ready: Connection established, ready to go.
+[5.4764583110809326] 2019-01-12 20:50:29,166 - DEBUG - musicbot.bot | In bot.py::MainThread(50496), line 333 in _cache_app_info: Caching app info
+[5.8705229759216309] 2019-01-12 20:50:29,560 - DEBUG - musicbot.bot | In bot.py::MainThread(50496), line 737 in _scheck_ensure_env: Ensuring data folders exist
+[5.8715271949768066] 2019-01-12 20:50:29,561 - DEBUG - musicbot.bot | In bot.py::MainThread(50496), line 753 in _scheck_server_permissions: Checking server permissions
+[5.8715271949768066] 2019-01-12 20:50:29,561 - DEBUG - musicbot.bot | In bot.py::MainThread(50496), line 757 in _scheck_autoplaylist: Auditing autoplaylist
+[5.8715271949768066] 2019-01-12 20:50:29,561 - DEBUG - musicbot.bot | In bot.py::MainThread(50496), line 761 in _scheck_configs: Validating config
+[5.8715271949768066] 2019-01-12 20:50:29,561 - DEBUG - musicbot.config | In config.py::MainThread(50496), line 216 in async_validate: Validating options...
+[5.8720271587371826] 2019-01-12 20:50:29,561 - DEBUG - musicbot.bot | In bot.py::MainThread(50496), line 764 in _scheck_configs: Validating permissions config
+[5.8720271587371826] 2019-01-12 20:50:29,561 - DEBUG - musicbot.permissions | In permissions.py::MainThread(50496), line 94 in async_validate: Validating permissions...
+[5.8720271587371826] 2019-01-12 20:50:29,561 - INFO - musicbot.bot | In bot.py::MainThread(50496), line 932 in on_ready: Connected: 533324600977784834/Indian Music#2968
+[5.8735311031341553] 2019-01-12 20:50:29,563 - INFO - musicbot.bot | In bot.py::MainThread(50496), line 940 in on_ready: Owner:     484370510088634369/M.DEVASHISH#5349
+
+[5.8745355606079102] 2019-01-12 20:50:29,564 - INFO - musicbot.bot | In bot.py::MainThread(50496), line 943 in on_ready: Guild List:
+[5.8750362396240234] 2019-01-12 20:50:29,564 - INFO - musicbot.bot | In bot.py::MainThread(50496), line 947 in on_ready:  - Xskull
+[5.8755364418029785] 2019-01-12 20:50:29,565 - INFO - musicbot.bot | In bot.py::MainThread(50496), line 1003 in on_ready: Not bound to any text channels
+[5.8760390281677246] 2019-01-12 20:50:29,565 - INFO - musicbot.bot | In bot.py::MainThread(50496), line 1029 in on_ready: Not autojoining any voice channels
+[5.8770415782928467] 2019-01-12 20:50:29,566 - INFO - musicbot.bot | In bot.py::MainThread(50496), line 257 in _join_startup_channels: Found resumable voice channel Xskull/🔊Classic Music !
+[5.8785438537597656] 2019-01-12 20:50:29,568 - INFO - musicbot.bot | In bot.py::MainThread(50496), line 272 in _join_startup_channels: Attempting to join Xskull/🔊Classic Music !
+[9.1219310760498047] 2019-01-12 20:50:32,811 - DEBUG - musicbot.bot | In bot.py::MainThread(50496), line 697 in deserialize_queue: Deserializing queue for 532956225764327437
+[9.3400108814239502] 2019-01-12 20:50:33,029 - DEBUG - musicbot.bot | In bot.py::MainThread(50496), line 416 in get_player: Created player via deserialization for guild 532956225764327437 with 0 entries
+[9.3400108814239502] 2019-01-12 20:50:33,029 - INFO - musicbot.bot | In bot.py::MainThread(50496), line 288 in _join_startup_channels: Joined Xskull/🔊Classic Music !
+[9.3410124778747559] 2019-01-12 20:50:33,030 - DEBUG - musicbot.bot | In bot.py::MainThread(50496), line 504 in on_player_stop: Running on_player_stop
+[14.8127832412719727] 2019-01-12 20:50:38,502 - INFO - musicbot.bot | In bot.py::MainThread(50496), line 2626 in on_message: 484370510088634369/M.DEVASHISH#5349: #summon
+[14.8137848377227783] 2019-01-12 20:50:38,503 - INFO - musicbot.bot | In bot.py::MainThread(50496), line 1886 in cmd_summon: Joining Xskull/🔊Classic Music !
